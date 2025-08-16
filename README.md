@@ -3,8 +3,11 @@
 
 
 
-# In Use Gid
-pkg install git
+## 📥 Installation
+
+```bash
+pkg update -y && pkg upgrade -y
+pkg install -y git bash python python3 curl
 git clone https://github.com/Solution-Lighthouse/Al-Hacking.git
 cd Al-Hacking
 bash alhack.sh
